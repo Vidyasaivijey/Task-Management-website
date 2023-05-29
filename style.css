@@ -1,0 +1,218 @@
+@media screen and (max-width:750px) {
+    
+
+#itms>a{
+    box-sizing:border-box;
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    width:150px;
+    color:white;
+    font-size: 1.1em;
+    margin-left: -150px;
+    border-top:1px solid rgb(15, 4, 78);
+    background-color: rgb(49, 96, 228);
+}
+#hamnav
+{
+    display: inline;
+    height:60px;
+    width:5%px;
+    overflow: hidden;
+}
+#hamnav label
+{
+    display:inline-block;
+    color:white;
+    background:rgb(8, 8, 105);  ;
+    padding-top:10px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    font-style:normal;
+    font-size:1.5em;
+    /* padding:10px; */
+}
+
+#m1
+{
+  display:none;
+}
+#hd
+{
+    margin-left: 210px;
+}
+#m2
+{
+    margin-left: -300px;
+    width:550px;
+    
+ grid-template-columns: auto auto   ;
+ 
+}
+#cmpage
+{
+    display:none;
+}
+#ucmpage
+{
+    display:none;
+}
+#mnu
+{
+  margin-left:95%;
+  width:5%;
+}
+#h2
+{
+  width:95%;
+}
+}
+@media screen and (min-width:750px)
+{
+  #hamnav
+  {
+    display: none;
+  }
+  #hd
+  {
+    margin-left:650px;
+  }
+  #m2
+  {
+ width:65%;
+ grid-template-columns: auto auto auto   ;
+  }
+  #mnu
+  {
+    margin-left:80%;
+    width:20%;
+  }
+  #h2
+  {
+    width:80%;
+  }
+  #cmpage,#ucmpage
+  {
+    margin-top:12px;
+    color: white;
+    font-size: large;
+    background-color: transparent;
+    padding:10px;
+    margin-left:50px;
+  }
+
+}
+/* #itms {display:none; } */
+#mnu
+{
+    position:absolute;
+    margin-top: 0px;
+    /* margin-left: 95%; */
+    height:60px;
+    /* width:5%; */
+    background-color:  rgb(8, 8, 105);
+}
+#hd
+{
+    position:absolute;
+    margin-top:100px;
+    /* margin-left: 350px; */
+    height:55px;
+    width: 350px;
+    font-size: 36px;
+    font-family: Bookman OldStyle;
+    font-weight: bolder;
+    color:rgb(4, 4, 51)
+    /* background-color: blue; */
+
+}
+
+#h2
+{
+        position:absolute;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-top: 0px;
+
+        /* font */
+        /* width:95%; */
+        height:60px;
+        background-color: rgb(8, 8, 105);
+        /* background-color: rgb(27, 76, 117); */
+
+    }
+
+#m1
+{
+    position:absolute;
+    margin-top:60px;
+    padding-bottom:15px;
+    height:fit-content;
+    width :300px;
+    background-color: rgba(236, 121, 67, 0.932);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow:visible;
+}
+#ifield
+{
+    position:relative;
+    margin-left: 20px;
+    margin-top: 45px;
+    padding-left: 10px;
+    padding-right:70px;
+    width:180px;
+}
+#ifield3
+{
+    position:relative;
+    margin-left: 20px;
+    height:30px;
+    width:100px;
+    border-radius: 8px;
+    margin-top: 55px;
+    padding-left: 13px;
+    padding-right:70px;
+    width:180px;
+}
+#ifield2
+{
+    position:relative;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right:70px;
+    width:180px;
+    height:40px
+}
+#m2
+{
+    position:absolute;
+    display: inline-grid;
+    padding:30px;
+    border-radius: 10px;
+    grid-template-rows: auto auto auto auto;
+    background-color: transparent;
+    height:500px;
+   
+    top:150px;
+    left:350px;
+    right:500px;
+    overflow: scroll;   
+}
+#m2>div
+{
+    background-color:white;
+    
+  box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-top:20px;
+    height:300px;
+    width:250px;
+     /* overflow-y:scroll; */
+}
+ 

@@ -1,0 +1,161 @@
+@media screen and (max-width:750px)
+{
+   #cmpage,#ucmpage
+   {
+    display:none;
+   }
+   
+#itms>a{
+    box-sizing:border-box;
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    width:150px;
+    color:white;
+    font-size: 1.1em;
+    margin-left: -150px;
+    border-top:1px solid rgb(15, 4, 78);
+    background-color: rgb(49, 96, 228);
+}
+#hamnav
+{
+    display: inline;
+    height:60px;
+    width:5%;
+    overflow: hidden;
+}
+#hamnav label
+{
+    display:inline-block;
+    color:white;
+    background:rgb(8, 8, 105);  ;
+    padding-top:10px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    font-style:normal;
+    font-size:1.5em;
+    /* padding:10px; */
+}
+#cont
+{
+    margin-left:20px;
+    width:550px;
+    grid-template-columns:auto auto;
+}
+#h2
+{
+ width:95%;
+
+}
+#hd
+{
+    margin-left: 100px;
+}
+#mnu
+{
+  margin-left:95%;
+  width:5%;
+}
+}
+@media screen and (min-width:750px)
+{
+    #hamnav
+    {
+        display: none;
+    }
+    #cont
+    {
+       
+    grid-template-columns: auto auto auto ;
+        margin-left:220px;
+        width:800px;
+    }
+    #hd
+  {
+    margin-left:450px;
+  }
+    #h2
+    {
+     width:80%;
+
+    }
+    #mnu
+    {
+      margin-left:80%;
+      width:20%;
+    }
+    #cmpage,#ucmpage
+   {
+    margin-top:0px;
+    color:white;
+    margin-left:30px;
+    background-color: transparent;
+    padding:15px
+   }
+}
+#hd
+{
+    position:absolute;
+    margin-top:100px;
+    /* margin-left: 350px; */
+    height:55px;
+    width: 390px;
+    font-size: 36px;
+    font-family: Bookman OldStyle;
+    font-weight: bolder;
+    color:rgb(4, 4, 51)
+    /* background-color: blue; */
+
+}
+#cont
+{
+    position:absolute;
+    display: inline-grid;
+    padding:30px;
+    border-radius: 10px;
+    /* grid-template-columns: auto auto auto ; */
+    background-color:transparent;
+    height:500px;
+   
+    top:150px;
+    /* right:500px; */
+    overflow: scroll;   
+}
+#cont>div
+{
+    background-color:white;
+  box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-top:20px;
+    height:300px;
+    width:250px;
+     /* overflow-y:scroll; */
+}
+#h2
+{
+        position:absolute;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-top: 0px;
+
+        /* font */
+        /* width:95%; */
+        height:60px;
+        background-color: rgb(8, 8, 105);
+        /* background-color: rgb(27, 76, 117); */
+
+    }
+#mnu
+{
+    position:absolute;
+    margin-top: 0px;
+    /* margin-left: 95%; */
+    height:60px;
+    /* width:5%; */
+    background-color:  rgb(8, 8, 105);
+}
+    

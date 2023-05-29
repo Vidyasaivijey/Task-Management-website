@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manger </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body style="margin-top:0px;margin-left: 0px;background-color:rgba(232, 233, 245, 0.911)">
+  
+  <div  class="ham" id="mnu">
+    <button id="cmpage" onclick="window.location.href='a.html'">&larr;</button>
+    <button id="ucmpage"onclick="window.location.href='b.html'">&rarr;</button>
+    <nav id="hamnav">
+      <label for ="hamburger" id ="hamburger">&#9776;</label>
+      <!-- <input type="checkbox" id ="ham"/> -->
+      <div id="itms">
+        <a href="index.html">All Tasks</a>
+        <a href="a.html">Comleted Task</a>
+        <a href="b.html">Pending Task</a>
+      </div>
+    </nav>
+
+  </div>
+  
+  <div class="container2" id="h2">
+    <center>TASK MANAGER</center>
+    </div>
+
+       <div class="head" id="hd">YOUR TASKS...</div>
+       <div class ="container3"id ="m1">
+               <center>ADD TASK</center> 
+               <textarea class="ttl" id="ifield" rows="5" style="border-radius: 3px;font-family:Arial;font-size: 15px;">Add Title</textarea>
+             <center>  SUBJECT</center>
+               <textarea class="mainc" id="ifield" rows="20"style="border-radius: 3px;font-family:Arial;font-size: 15px;" >Add Subject</textarea>
+               <center>SET DEADLINE</center>
+               <input type="date" id ="ifield2" class="dte" value=today style="padding-right:15px ;width:235px;font-family:Arial;" >
+               <input type="button" id ="ifield3" class="btn" value ="Submit" style="padding-left :55px; margin-left:50px;margin-top:30px">
+        </div>
+        YOUR TASKS<br>
+        <div class="container4" id ="m2">   
+        </div>
+  <script type ="module" src="script.js" ></script>
+ 
+</body>
+</html>
+<!-- margin-left:50px; margin-top:30px -->
